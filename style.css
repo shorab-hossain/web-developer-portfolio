@@ -60,11 +60,31 @@ h2{
 
 .half-second{
     width: 40%;
+    border-left: 45deg,orange,black;
     margin-left: 5%;
     margin-right: 5%;
+    border-radius: 10px;
     padding-left: 20px;
     box-shadow: 10px 10px 40px gray;
 }
 .all-block{
     display: flex;
+    padding-bottom: 150px;
+}
+#first-gradiant{
+    border-left: 10px solid;
+    border-image: linear-gradient( purple, tomato);
+    border-image-slice:1;
+}
+#second-gradiant{
+    border-left: 10px solid;
+    border-image: linear-gradient( blue, cyan);
+    border-image-slice:1;
+}
+footer p{
+    text-align: center;
+}
+.color{
+    color: red;
+    font-weight: bold;;
 }
