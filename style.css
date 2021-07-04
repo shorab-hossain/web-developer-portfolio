@@ -1,0 +1,51 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.half-blog{
+    width: 50%;
+}
+.half-blog img {
+    width: 80%;
+    padding-left: 10%;
+}
+p{
+    text-align: justify;
+    padding-bottom: 30px;
+    padding-right:30px ;
+}
+span{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+}
+
+#main-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;   
+}
+.link-button{ 
+        text-decoration: none;
+        font-weight: 700;
+        background: linear-gradient(
+        180deg
+        , #3242b0, #ff9716);
+        color: white;
+        border-radius: 5px;
+        padding: 10px 20px;
+}
+#second-section{
+    margin-top: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+     
+}
